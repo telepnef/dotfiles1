@@ -1,0 +1,18 @@
+[user]
+	name = Nikita
+	email = telentnmt@gmail.com
+	signingkey = DEDC8AA5A2DF1C6E51984D02007BA56BA346568D
+[core]
+	editor = vim
+	excludesfiel = /home/nikita/.gitignore_global
+	excludesfile = /home/nikita/.gitignore
+[alias]
+	ci = commit
+[rerere]
+	enable = true
+[diff]
+	submodule = log
+[credential]
+	helper = cache
+[commit]
+	template = /home/nikita/.gitmessage.txt
